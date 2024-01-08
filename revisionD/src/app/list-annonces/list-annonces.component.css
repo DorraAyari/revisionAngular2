@@ -1,0 +1,11 @@
+/* Styles pour la classe bg-color */
+.bg-color {
+  background-color: lightblue;
+  color: white; /* Couleur du texte */
+}
+
+/* Styles pour la classe orange-bg */
+.orange-bg {
+  background-color: orange;
+  color: white; /* Couleur du texte */
+}

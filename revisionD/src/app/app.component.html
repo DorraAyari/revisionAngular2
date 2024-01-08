@@ -1,0 +1,10 @@
+<app-annonces></app-annonces>
+<router-outlet></router-outlet> <!-- Emplacement pour le contenu des routes -->
+
+<h1>les articles du jour </h1>
+<p>veuillez saisir  </p>
+<!-- app.component.html -->
+
+<input type="text" name="nombre" [(ngModel)]="nbArticles">
+
+<app-page [nbArticles]="nbArticles" [listeArticles]="articles"></app-page>

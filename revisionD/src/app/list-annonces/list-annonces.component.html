@@ -1,0 +1,9 @@
+<h2>Liste des utilisateurs</h2>
+<div *ngFor="let product of annonces">
+  <div [ngClass]="{'bg-color': product.etat === 'confirmé', 'orange-bg': product.etat === 'en attente'}" *ngIf="product.etat !== 'annulé'">
+    <div><strong>Nom: </strong>{{ product.titre }}</div>
+    <div><strong>Prix: </strong>{{ product.description }}</div>
+    <div><strong>Description: </strong>{{ product.position }}</div>
+    <br><br>
+  </div>
+</div>
